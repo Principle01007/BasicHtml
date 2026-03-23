@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <head>
+        <title>Ejemplo de HTML con Formularios</title>
+    </head>
+    <body>
+        <form>
+            <section>
+            <h1>Formularios en HTML</h1>
+        </section>
+
+        <section>
+            <h2>Datos Personales</h2>
+        </section>
+
+        <section>
+            <fieldset>
+                <label for="name">
+                    Nombre: 
+                    <input type="text" id="Name"/>
+                </label>
+                <br />
+                <label for="Email">
+                    Correo Electrónico: 
+                    <input type="email" id="Email"/>
+                </label>
+                <br />
+                <label for="Numphone">Teléfono: </label>
+                <input type="tel" id="Numphone"/>
+            </fieldset>
+        </section>
+
+        <section>
+            <h2>Género</h2>
+        </section>
+
+        <section>
+            <fieldset>
+                <label for="Opcion1">
+                     <input type="radio" id="Opcion1" value="Masculino" name="Genero"/>
+                     Masculino
+                </label>
+                <br />
+                <label for="Opcion2">
+                     <input type="radio" id="Opcion2" value="Femenino" name="Genero"/>
+                     Femenino
+                </label>
+                <br />
+                <label for="Opcion3">
+                     <input type="radio" id="Opcion3" value="Otro" name="Genero"/>
+                     Otro
+                </label>
+            </fieldset>
+        </section>
+
+        <section>
+            <h2>Preferencias</h2>
+        </section>
+
+        <section>
+            <fieldset>
+                <label for="Music">
+                    <input type="checkbox" id="Music" valor="Musica" name="Gustos">
+                    Música
+                </label>
+                <br />
+                <label for="Sports">
+                    <input type="checkbox" id="Sports" valor="Deportes" name="Gustos">
+                    Deportes
+                </label>
+                <br />
+                <label for="Lectura">
+                    <input type="checkbox" id="Lectura" valor="Lectura" name="Gustos">
+                    Lectura
+                </label>
+            </fieldset>
+        </section>
+
+        <section>
+            <h2>Comentarios</h2>
+        </section>
+
+        <section>
+            <textarea cols="30" rows="5" maxlength="25"></textarea>
+        </section>
+
+        <section>
+            <button type="submit">Enviar</button>
+        </section>
+        </form>
+    </body>
+</html>
